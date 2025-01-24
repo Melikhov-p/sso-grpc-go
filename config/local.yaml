@@ -1,0 +1,8 @@
+env: "local"
+token_ttl: 12h
+storage:
+  file_storage:
+    file_path: "./storage/in_file_storage.json"
+grpc:
+  port: 8080
+  timeout: 10h
