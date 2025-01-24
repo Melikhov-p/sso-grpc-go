@@ -1,4 +1,4 @@
-env: "local"
+env: "local" # environment local/dev/prod
 token_ttl: 12h  # lifetime of auth token
 storage: # file or database mode switcher
   file_storage: # you only need one for each mode, basically a file, if you specify 2, the file will be used.

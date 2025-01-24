@@ -16,7 +16,7 @@ const (
 )
 
 type Config struct {
-	Env           string        `yaml:"env" env-default:"local"`
+	Env           string        `yaml:"env" env-default:"local"` // environment: local/dev/prod
 	Storage       StorageConfig `yaml:"storage" env-required:"true"`
 	GRPC          GRPCConfig    `yaml:"grpc"`
 	MigrationPath string        `yaml:"migration_path"`
