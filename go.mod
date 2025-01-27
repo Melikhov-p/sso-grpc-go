@@ -3,8 +3,10 @@ module github.com/Melikhov-p/sso-grpc-go
 go 1.23.2
 
 require (
+	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	go.uber.org/zap v1.27.0
+	golang.org/x/crypto v0.30.0
 	google.golang.org/grpc v1.70.0
 	google.golang.org/protobuf v1.36.4
 )
