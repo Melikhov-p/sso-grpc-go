@@ -4,6 +4,14 @@ Simple package for authenticate user for pet-projects without having to start yo
 
 ---
 
+# Copy Repo
+
+```
+git clone https://github.com/Melikhov-p/sso-grpc-go .
+```
+
+---  
+
 # Commands  
   
 
